@@ -15,6 +15,7 @@
 		D2DE95C01F8C5D0000E0E050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DE95BE1F8C5D0000E0E050 /* LaunchScreen.storyboard */; };
 		D2DE95CB1F8C5D0000E0E050 /* InheritOfBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE95CA1F8C5D0000E0E050 /* InheritOfBtnTests.m */; };
 		D2DE95D61F8C5D0000E0E050 /* InheritOfBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE95D51F8C5D0000E0E050 /* InheritOfBtnUITests.m */; };
+		D2DE95E51F8C616B00E0E050 /* payBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE95E41F8C616B00E0E050 /* payBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D2DE95D11F8C5D0000E0E050 /* InheritOfBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InheritOfBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DE95D51F8C5D0000E0E050 /* InheritOfBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InheritOfBtnUITests.m; sourceTree = "<group>"; };
 		D2DE95D71F8C5D0000E0E050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DE95E31F8C616B00E0E050 /* payBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payBtn.h; sourceTree = "<group>"; };
+		D2DE95E41F8C616B00E0E050 /* payBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,10 @@
 		D2DE95AF1F8C5D0000E0E050 /* InheritOfBtn */ = {
 			isa = PBXGroup;
 			children = (
-				D2DE95B31F8C5D0000E0E050 /* AppDelegate.h */,
-				D2DE95B41F8C5D0000E0E050 /* AppDelegate.m */,
+				D2DE95E31F8C616B00E0E050 /* payBtn.h */,
+				D2DE95E41F8C616B00E0E050 /* payBtn.m */,
 				D2DE95B61F8C5D0000E0E050 /* ViewController.h */,
 				D2DE95B71F8C5D0000E0E050 /* ViewController.m */,
-				D2DE95B91F8C5D0000E0E050 /* Main.storyboard */,
-				D2DE95BC1F8C5D0000E0E050 /* Assets.xcassets */,
-				D2DE95BE1F8C5D0000E0E050 /* LaunchScreen.storyboard */,
-				D2DE95C11F8C5D0000E0E050 /* Info.plist */,
 				D2DE95B01F8C5D0000E0E050 /* Supporting Files */,
 			);
 			path = InheritOfBtn;
@@ -117,6 +116,12 @@
 		D2DE95B01F8C5D0000E0E050 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2DE95B91F8C5D0000E0E050 /* Main.storyboard */,
+				D2DE95B31F8C5D0000E0E050 /* AppDelegate.h */,
+				D2DE95B41F8C5D0000E0E050 /* AppDelegate.m */,
+				D2DE95BC1F8C5D0000E0E050 /* Assets.xcassets */,
+				D2DE95BE1F8C5D0000E0E050 /* LaunchScreen.storyboard */,
+				D2DE95C11F8C5D0000E0E050 /* Info.plist */,
 				D2DE95B11F8C5D0000E0E050 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DE95B81F8C5D0000E0E050 /* ViewController.m in Sources */,
+				D2DE95E51F8C616B00E0E050 /* payBtn.m in Sources */,
 				D2DE95B51F8C5D0000E0E050 /* AppDelegate.m in Sources */,
 				D2DE95B21F8C5D0000E0E050 /* main.m in Sources */,
 			);
